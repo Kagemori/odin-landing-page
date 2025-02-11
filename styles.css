@@ -54,6 +54,7 @@ a:visited {
 .hero-text p, .hero-text h2{
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 400px;
 }
 
 .hero-text span {
@@ -109,11 +110,18 @@ a:visited {
 }
 
 .testimonial {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937
+    color: #1f2937;
+    padding: 50px 400px;
+}
+
+.testimonial p{
+    text-align: end;
 }
 
 .signup {
