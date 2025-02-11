@@ -66,6 +66,9 @@ a:visited {
 .hero-img img{
     max-width: 600px;
     height: auto;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .info {
