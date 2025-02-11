@@ -18,11 +18,17 @@ a:visited {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
     color:white;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.logo img{
+    height: auto;
+    width: 75px;
+    padding: 10px;
 }
 
 .links {
@@ -34,6 +40,8 @@ a:visited {
 .main {
     display: flex;
     background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-text h1{
@@ -47,8 +55,15 @@ a:visited {
     color: #E5E7EB;
 }
 
-.hero-text h2 {
+.hero-text span {
     background-color: #3882F6;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.hero-img img{
+    max-width: 700px;
+    height: auto;
 }
 
 .info {
@@ -66,8 +81,13 @@ a:visited {
 
 .info-panels{
     display: flex;
-    width: 500px;
+    width: 1000px;
     justify-content: space-between;
+}
+
+.panel img{
+    max-width: 150px;
+    height: auto;
 }
 
 .testimonial {
