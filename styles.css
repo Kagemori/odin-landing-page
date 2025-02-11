@@ -42,6 +42,7 @@ a:visited {
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;
+    padding: 30px 0px;
 }
 
 .hero-text h1{
@@ -62,7 +63,7 @@ a:visited {
 }
 
 .hero-img img{
-    max-width: 700px;
+    max-width: 600px;
     height: auto;
 }
 
@@ -71,6 +72,7 @@ a:visited {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px 0px;
 }
 
 .info-title {
@@ -81,13 +83,29 @@ a:visited {
 
 .info-panels{
     display: flex;
-    width: 1000px;
+    width: 1500px;
     justify-content: space-between;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
 }
 
 .panel img{
     max-width: 150px;
     height: auto;
+    background-color: #3882f6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.panel p{
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .testimonial {
